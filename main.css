@@ -1,6 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Century Gothic"; /* Имя шрифта */
+  src: url(fonts/GOTHIC.TTF); /* Путь к файлу со шрифтом */
+ }
+
 html {
-    Font-family: 'IBM Plex Mono', monospace;
-    background-color: #262626;
+  font-family: "Century Gothic"; /* Имя шрифта */
+  src: url(fonts/GOTHIC.TTF);
+  background-color: #262626;
   }
 
   @media screen and (min-width: 768px) {
@@ -21,7 +33,7 @@ html {
     }
   }
   
-  .navbar ul {
+  /*.navbar ul {
     list-style: none;
     padding: 0;
     margin-right: 20px;
@@ -41,10 +53,49 @@ html {
 
    .navbar .back {
        padding-right: 75%;
-   }
+   }*/
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.logo p {
+  color: #f4f4f4;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links a {
+  color: #f4f4f4;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 22px;
+}
 
 .wrapper {
-    height: 90vh;
+    height: 87vh;
     width: 100%;
     display: flex;
     /*align-items: center;*/
@@ -61,7 +112,7 @@ html {
     object-fit: cover;
 }
 
-.wrapper caption {
+.wrapper caption p {
     position: relative;
     z-index: 20;
     color: #262626
@@ -82,18 +133,25 @@ html {
 p {
     font-size: 2em;
     text-align: center;
-    margin-top: 5%;
-    color: #262626;
+    margin-top: 35%;
+    color: #f4f4f4;
+    letter-spacing: 15px;
 }
 
 
-.footer {
+.footer p {
     position: fixed;
-    left: 33px;
+    left: 10px;
     bottom: 0;
     color: #262626;
     text-align: left;
-    font-size: 7px;
+    font-size: 10px;
+    letter-spacing: 1px;
   }
 
-
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
