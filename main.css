@@ -67,16 +67,16 @@ html {
        padding-right: 75%;
    }*/
 
-nav  {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  /*align-items: center;*/
-  font-size: 20px;
-  margin-left: 60%;
-  margin-top: 15px;
-  letter-spacing: 1px;
-}
+   nav  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+  }
 
 a {
   color: #f4f4f4;
@@ -88,8 +88,6 @@ a {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-
-
 
 .wrapper {
     height: 87vh;
