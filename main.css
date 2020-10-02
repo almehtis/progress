@@ -8,15 +8,15 @@
 @font-face {
   font-family: "Century Gothic"; /* Имя шрифта */
   src: url(fonts/GOTHIC.TTF); /* Путь к файлу со шрифтом */
- }
+}
 
 html {
   font-family: "Century Gothic"; /* Имя шрифта */
   src: url(fonts/GOTHIC.TTF);
   background-color: #262626;
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .wrapper .caption p {
       font-size: 2.5rem;
     }
@@ -33,17 +33,17 @@ html {
     }
   }
 
-  @media screen and (min-width: 992px) {
-    .wrapper .caption p {
-      font-size: 3rem;
-    }
+@media screen and (min-width: 992px) {
+  .wrapper .caption p {
+  font-size: 3rem;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .wrapper .caption p {
-      font-size: 4rem;
-    }
+@media screen and (min-width: 1200px) {
+  .wrapper .caption p {
+  font-size: 4rem;
   }
+}
   
   /*.navbar ul {
     list-style: none;
@@ -67,16 +67,16 @@ html {
        padding-right: 75%;
    }*/
 
-   nav  {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    /*align-items: center;*/
-    font-size: 20px;
-    margin-left: 60%;
-    margin-top: 10px;
-    letter-spacing: 1px;
-  }
+nav  {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  /*align-items: center;*/
+  font-size: 20px;
+  margin-left: 60%;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
 
 a {
   color: #f4f4f4;
@@ -134,7 +134,6 @@ p {
     font-weight: 600;
 }
 
-
 .footer span {
     position: fixed;
     left: 10px;
@@ -153,7 +152,8 @@ p {
 }
 
 .menu a:hover {
-  color: #e2dede;
+  /*color: #d1caca;*/
+  opacity: .5;
 }
 
 .footer a {

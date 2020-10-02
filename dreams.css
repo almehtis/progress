@@ -13,43 +13,42 @@ html {
   font-family: "Century Gothic"; /* Имя шрифта */
   src: url(fonts/GOTHIC.TTF);
   background-color: #262626;
-  background-image: url(images/windows.JPG);
+  background-image: url(images/windows2.JPG);
   background-size: cover;
   }
 
-  @media screen and (max-width: 768px) {
-    .wrapper .caption p {
-      font-size: 2.5rem;
-    }
-    .menu {
-      position: static;
-      display: flex;
-      flex-direction: column;
-      margin-right: 10px;
-     
-    }
-    .menu_link {
-      font-size: 18px;
-      margin-left: auto;
-      line-height: 1.6;
-      text-transform: uppercase;
-    }
-    .back {
-      text-transform: uppercase;
-    }
+@media screen and (max-width: 768px) {
+  .wrapper .caption p {
+  font-size: 2.5rem;
   }
+  .menu {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px; 
+  }
+  .menu_link {
+    font-size: 18px;
+    margin-left: auto;
+    line-height: 1.6;
+    text-transform: uppercase;
+  }
+  .back {
+    text-transform: uppercase;
+  }
+}
 
-  @media screen and (min-width: 992px) {
-    .wrapper .caption p {
-      font-size: 3rem;
-    }
+@media screen and (min-width: 992px) {
+  .wrapper .caption p {
+  font-size: 3rem;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .wrapper .caption p {
-      font-size: 4rem;
-    }
+@media screen and (min-width: 1200px) {
+  .wrapper .caption p {
+  font-size: 4rem;
   }
+}
   
 nav  {
   list-style-type: none;
@@ -107,7 +106,12 @@ p {
 }
 
 .menu a:hover {
-  color: #e2dede;
+  /*color: #d1caca;*/
+  opacity: .5;
+}
+
+img:hover {
+  opacity: .5;
 }
 
 .footer a {

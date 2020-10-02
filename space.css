@@ -17,39 +17,38 @@ html {
   background-size: cover;
   }
 
-  @media screen and (max-width: 768px) {
-    .wrapper .caption p {
-      font-size: 2.5rem;
-    }
-    .menu {
-      position: static;
-      display: flex;
-      flex-direction: column;
-      margin-right: 10px;
-     
-    }
-    .menu_link {
-      font-size: 18px;
-      margin-left: auto;
-      line-height: 1.6;
-      text-transform: uppercase;
-    }
-    .back {
-      text-transform: uppercase;
-    }
+@media screen and (max-width: 768px) {
+  .wrapper .caption p {
+  font-size: 2.5rem;
   }
+  .menu {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px; 
+  }
+  .menu_link {
+    font-size: 18px;
+    margin-left: auto;
+    line-height: 1.6;
+    text-transform: uppercase;
+  }
+  .back {
+    text-transform: uppercase;
+  }
+}
 
-  @media screen and (min-width: 992px) {
-    .wrapper .caption p {
-      font-size: 3rem;
-    }
+@media screen and (min-width: 992px) {
+  .wrapper .caption p {
+  font-size: 3rem;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .wrapper .caption p {
-      font-size: 4rem;
-    }
+@media screen and (min-width: 1200px) {
+  .wrapper .caption p {
+  font-size: 4rem;
   }
+}
   
 nav  {
   list-style-type: none;
@@ -73,12 +72,6 @@ a {
   text-decoration: none;
 }
 
-.logo p {
-  color: #f4f4f4;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
 p {
     font-size: 2.5em;
     text-align: center;
@@ -98,16 +91,13 @@ p {
     letter-spacing: 1px;
   }
 
-.logo {
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 10px;
-  
+.menu a:hover {
+  /*color: #d1caca;*/
+  opacity: .5;
 }
 
-.menu a:hover {
-  color: #e2dede;
+img:hover {
+  opacity: .5;
 }
 
 .footer a {
