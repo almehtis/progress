@@ -29,10 +29,11 @@ html {
      
     }
     .menu_link {
-      font-size: 18px;
+      font-size: 20px;
       margin-left: auto;
       line-height: 1.6;
       text-transform: uppercase;
+      padding: 2px;
     }
     .back {
       text-transform: uppercase;

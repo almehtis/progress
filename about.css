@@ -24,13 +24,13 @@
         display: flex;
         flex-direction: column;
         margin-right: 10px;
-       
       }
       .menu_link {
-        font-size: 18px;
+        font-size: 20px;
         margin-left: auto;
         line-height: 1.6;
         text-transform: uppercase;
+        padding: 2px;
       }
       .back {
         text-transform: uppercase;
@@ -76,11 +76,11 @@
     letter-spacing: 5px;
     text-transform: uppercase;
   }
-  
-  p {
+ 
+  .main_text {
       font-size: 1.7em;
-      text-align: center;
-      margin-top: 13%;
+      text-align: left;
+      padding: 10%;
       color: #f4f4f4;
       letter-spacing: 3px;
       font-weight: 500;
